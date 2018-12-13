@@ -2,13 +2,16 @@
 
 .website-header {
   position: sticky;
+  top: 0;
   z-index: $website-header-z-index;
-  width: 100%;
-  height: 5rem;
-  // background-color: $c-background;
+  height: $website-header-height;
+}
+.website-header__inner {
+  background-color: $c-background;
+  border-bottom: 1px solid $c-primary;
   padding: 1rem;
 }
 .website-header__title {
-  // font-size: $fs-header--big;
-  // color: $c-primary;
+  font-size: $fs-header--big;
+  color: $c-primary;
 }
