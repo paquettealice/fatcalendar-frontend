@@ -1,0 +1,16 @@
+
+/* colors */
+$c-primary: rgb(221, 125, 0); 
+$c-secondary: rgb(163, 163, 163);
+$c-background: rgb(63, 63, 63);
+$c-warn: rgb(163, 0, 0);
+
+/* fonts */
+$f-primary: 'Roboto';
+
+/* font sizes */
+$fs-header--big: 3rem;
+
+/* z-index */
+$website-header-z-index: 10000;
+$website-footer-z-index: $website-header-z-index;

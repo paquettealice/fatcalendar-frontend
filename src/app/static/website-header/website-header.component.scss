@@ -1,0 +1,14 @@
+@import '../../../variables.scss';
+
+.website-header {
+  position: sticky;
+  z-index: $website-header-z-index;
+  width: 100%;
+  height: 5rem;
+  // background-color: $c-background;
+  padding: 1rem;
+}
+.website-header__title {
+  // font-size: $fs-header--big;
+  // color: $c-primary;
+}
