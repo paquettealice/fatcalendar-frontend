@@ -5,3 +5,17 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* fonts */
+.f-header {
+  &--big {
+    font-family: $f-header--big;
+  }
+}
+
+/* font sizes */
+.fs-header {
+  &--big {
+    font-size: $fs-header--big;
+  }
+}
